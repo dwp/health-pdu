@@ -28,4 +28,25 @@ $path: "/public/images/";
   }
 }
 
+.most-recent {
+  border: 1px solid $border-colour;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  overflow: hidden;
+  position: relative;
+
+  &::before {
+    background-color: $border-colour;
+    color: $page-colour;
+    content: 'What do you want to know?';
+    font-family: 'nta', Arial, sans-serif;
+    font-weight: 400;
+    left: 0;
+    padding: .2105263158em .7894736842em;
+    position: absolute;
+    text-transform: none;
+    top: 0;
+  }
+}
+
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
